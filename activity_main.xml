@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -58,5 +57,133 @@
             android:textSize="18dp"/>
     </RadioGroup>
 
+</LinearLayout>
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityQ2">
+
+    <TextView
+        android:id="@+id/textViewQ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2) Qual a comida favorita do Danillo Xavier?"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radioButtonPizzaQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:textSize="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonChurrascoQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Churrasco"
+            android:textSize="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonHamburguerQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hamburguer"
+            android:textSize="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonEsfihaQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esfiha"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/buttonResponderQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Responder"
+            android:textSize="18dp"/>
+    </RadioGroup>
 
 </LinearLayout>
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityQ3">
+
+    <TextView
+        android:id="@+id/textViewQ3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3) Qual o doce favorito do Danillo Xavier?"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radioButtonChocolateQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chocolate"
+            android:textSize="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonChurrosQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Churros"
+            android:textSize="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonPaveQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pave"
+            android:textSize="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonMousseQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mousse"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/buttonResponderQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Responder"
+            android:textSize="18dp"/>
+    </RadioGroup>
+
+</LinearLayout>
+
